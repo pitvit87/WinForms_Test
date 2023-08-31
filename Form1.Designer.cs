@@ -34,7 +34,7 @@
             // btnPush
             // 
             btnPush.Font = new Font("Segoe UI", 34F, FontStyle.Bold, GraphicsUnit.Point);
-            btnPush.Location = new Point(440, 47);
+            btnPush.Location = new Point(163, 162);
             btnPush.Name = "btnPush";
             btnPush.Size = new Size(170, 65);
             btnPush.TabIndex = 0;
