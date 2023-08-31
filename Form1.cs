@@ -6,5 +6,10 @@ namespace WinForms_Test
         {
             InitializeComponent();
         }
+
+        private void btnPush_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Button was pushed");
+        }
     }
 }

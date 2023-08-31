@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnPush = new Button();
+            SuspendLayout();
+            // 
+            // btnPush
+            // 
+            btnPush.Font = new Font("Segoe UI", 34F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPush.Location = new Point(440, 47);
+            btnPush.Name = "btnPush";
+            btnPush.Size = new Size(170, 65);
+            btnPush.TabIndex = 0;
+            btnPush.Text = "Push";
+            btnPush.UseVisualStyleBackColor = true;
+            btnPush.Click += btnPush_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnPush);
+            Name = "Form1";
+            Text = "TestForGitHub";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnPush;
     }
 }
