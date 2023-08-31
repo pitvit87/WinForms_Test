@@ -46,7 +46,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(537, 344);
+            ClientSize = new Size(739, 374);
             Controls.Add(btnPush);
             Name = "Form1";
             Text = "TestForGitHub";
