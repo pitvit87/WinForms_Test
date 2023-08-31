@@ -34,7 +34,7 @@
             // btnPush
             // 
             btnPush.Font = new Font("Segoe UI", 34F, FontStyle.Bold, GraphicsUnit.Point);
-            btnPush.Location = new Point(163, 162);
+            btnPush.Location = new Point(305, 117);
             btnPush.Name = "btnPush";
             btnPush.Size = new Size(170, 65);
             btnPush.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(537, 344);
             Controls.Add(btnPush);
             Name = "Form1";
             Text = "TestForGitHub";
